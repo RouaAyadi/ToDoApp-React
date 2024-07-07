@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+ID:wght@100..400&family=Playwrite+US+Trad&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); */
+
+* {
+  font-family: "Playwrite US Trad", cursive;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background:url('./assets/bb.jpg');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.App {
+  text-align: center;
+  width: 600px;
+}
+
+h1 {
+  color: black;
+  margin-bottom: 0.5rem;
+  font-size: 1.75rem;
+}
+
+.TodoWrapper {
+  background: #A0937D;
+  margin-top: 5rem;
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.TodoForm {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.todo-input {
+  outline: none;
+  background: none;
+  border: 1px solid #F6E6CB;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 300px;
+  color: black;
+}
+
+.todo-input::placeholder {
+  color: #ffffff4d;
+}
+
+.todo-btn {
+  background: #F6E6CB;
+  color: black;
+  border: none;
+  padding: 0.55rem;
+  cursor: pointer;
+  margin: 30px;
+}
+
+.Todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #F6E6CB;
+  color: black;
+  padding: 0.75rem 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.fa-trash {
+  margin-left: 0.75rem;
+}
+
+.incompleted {
+  color: black;
+  cursor: pointer;
+}
+
+.completed {
+  color: #c5aeff;
+  text-decoration: line-through;
+  cursor: pointer;
+}
+
+.edit-icon,
+.delete-icon {
+  cursor: pointer;
+}
+ 
